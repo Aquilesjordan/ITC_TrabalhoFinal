@@ -21,7 +21,7 @@ while(1):
    	 ldr = ADC(Pin(33))
    	 ldr.atten(ADC.ATTN_11DB)    
    	 ldr_value = ldr.read()
-    	vet_red.append(ldr_value)
+     vet_red.append(ldr_value)
    	 x=x+1
     x=0
     print("Color Green")
@@ -33,7 +33,7 @@ while(1):
    	 ldr = ADC(Pin(33))
    	 ldr.atten(ADC.ATTN_11DB)    
    	 ldr_value = ldr.read()
-    	vet_green.append(ldr_value)
+     vet_green.append(ldr_value)
    	 x=x+1
     x=0
     print("Color Blue")
@@ -45,7 +45,7 @@ while(1):
    	 ldr = ADC(Pin(33))
    	 ldr.atten(ADC.ATTN_11DB)    
    	 ldr_value = ldr.read()
-    	vet_blue.append(ldr_value)
+     vet_blue.append(ldr_value)
    	 x=x+1
     x=0
     time.sleep(10)
